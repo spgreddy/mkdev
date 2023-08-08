@@ -48,7 +48,7 @@ variable "aws_region" {
 
 variable "eks_cluster_name" {
   description = "The name of the EKS cluster."
-  default     = "example-eks-cluster"
+  default     = "mkdev-eks-cluster"
 }
 
 variable "public_subnet_ids" {
